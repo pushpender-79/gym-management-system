@@ -1,0 +1,97 @@
+/* root style and base style */
+
+:root {
+  --color-bg: #f4f6f8;
+  --color-white: #ffffff;
+  --color-text-primary: #111827;
+  --color-text-secondary: #6b7280;
+  --color-accent: #2563eb;
+  --color-accent-hover: #1e40af;
+  --border-radius: 0.75rem;
+  --shadow-light: rgba(0, 0, 0, 0.08);
+  --transition-duration: 0.3s;
+  --max-width: 1200px;
+  --heading-font: "Poppins", sans-serif;
+  --body-font: "Inter", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  color: var(--color-text-secondary);
+  background: var(--color-bg);
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color-accent);
+  font-weight: 600;
+  transition: color var(--transition-duration);
+}
+
+a:hover,
+a:focus {
+  color: var(--color-accent-hover);
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  font-family: var(--body-font);
+}
+
+/* ===============================
+    Header & Navigation
+================================ */
+header {
+  position: sticky;
+  top: 0;
+  background: var(--color-white);
+  box-shadow: 0 2px 8px var(--shadow-light);
+  z-index: 1000;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+}
+
+.logo {
+  font-family: var(--heading-font);
+  font-weight: 800;
+  font-size: 2rem;
+  color: var(--color-text-primary);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+.nav-links a {
+  padding: 0.4rem 0.6rem;
+  border-radius: 0.5rem;
+  transition: background-color var(--transition-duration);
+}
+
+.nav-links a:hover {
+  background-color: #e0e7ff;
+}
