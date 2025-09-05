@@ -13,6 +13,7 @@ A sleek and modern web application for managing gym members, trainers, classes, 
 ## 📁 Project Structure
 
 The project is divided into three main files:
+
 - `index.html`: The main HTML file containing the website's structure.
 - `style.css`: The stylesheet for all design and layout.
 - `script.js`: The JavaScript file for all interactive features and data logic.
@@ -38,5 +39,4 @@ The project is divided into three main files:
 - [x] **Classes Section** Created a classes and schedule section.
 - [x] **Contact & Footer Section** implemented the contact form and website footer.
 
-***
-
+---
