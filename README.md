@@ -32,7 +32,7 @@ The project is divided into three main files:
 ## 📈 Project Progress
 
 - [x] **Header and Navigation:** Completed the main navigation bar.
-- [ ] Hero Section
+- [x] **Hero Section:** Added the main headline and call-to-action.
 - [ ] Members Section
 - [ ] Trainers Section
 - [ ] Classes Section
