@@ -286,3 +286,14 @@ th {
     font-family: var(--heading-font);
     font-weight: 700;
 }
+
+/* ==========
+         footer
+           ==========*/
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.9rem;
+    color: var(--color-text-secondary);
+}

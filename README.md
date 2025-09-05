@@ -21,7 +21,7 @@ The project is divided into three main files:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YourUsername/gym-management-system.git](https://github.com/YourUsername/gym-management-system.git)
+    git clone [https://github.com/pushpender-79/gym-management-system.git](https://github.com/pushpender-79/gym-management-system.git)
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -36,7 +36,7 @@ The project is divided into three main files:
 - [x] **Members Section** implemented a fully functioanl member management system with persistent data feature.
 - [x] **Trainers Section** Trainer section added which will display tariners profile.
 - [x] **Classes Section** Created a classes and schedule section.
--[] Contact & Footer Section
+- [x] **Contact & Footer Section** implemented the contact form and website footer.
 
 ***
 
