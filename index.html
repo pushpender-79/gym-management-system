@@ -43,6 +43,68 @@
           Add New Member
         </button>
       </section>
+
+      <!-- members -->
+      <section id="members">
+        <h2>Members</h2>
+        <form id="member-form" onsubmit="return addMember(event)">
+          <label for="member-name">Full Name</label>
+          <input id="member-name" type="text" required placeholder="Jane Doe" />
+
+          <label for="member-email">Email</label>
+          <input
+            id="member-email"
+            type="email"
+            required
+            placeholder="jane@example.com"
+          />
+
+          <label for="member-phone">Phone Number</label>
+          <input
+            id="member-phone"
+            type="tel"
+            pattern="^\+?[0-9\s\-]{7,15}$"
+            placeholder="+1 555 123 4567"
+          />
+
+          <label for="member-plan">Membership Plan</label>
+          <select id="member-plan" required>
+            <option value="" disabled selected>Select s plan</option>
+            <option value="Basic(Gym access)">Basic(Gym access)</option>
+            <option value="Premium(Gym + Classes)">
+              Premium(Gym + Classes)
+            </option>
+            <option value="VIP(All inclusive)">VIP(All inclusive)</option>
+          </select>
+
+          <button type="submit" class="form-submit">Add Member</button>
+        </form>
+
+        <table id="members-table">
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Email</th>
+              <th>Phone</th>
+              <th>Plan</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+
+        <button
+          onclick="clearmembers()"
+          class="form-submit"
+          style="margin-top: 1rem; background: #ef4444"
+        >
+          Clear All Members
+        </button>
+      </section>
+
+      <section id="trainers"></section>
+      <section id="classes"></section>
+      <section id="contact"></section>
     </main>
     <footer></footer>
     <script src="script.js"></script>
