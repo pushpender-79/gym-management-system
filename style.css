@@ -48,9 +48,9 @@ button {
   font-family: var(--body-font);
 }
 
-/* ===============================
-    Header & Navigation
-================================ */
+/* ===============
+      Header & Navigation
+              ================ */
 header {
   position: sticky;
   top: 0;
@@ -162,4 +162,99 @@ section h2 {
     width: 100%;
     text-align: center;
   }
+}
+
+/* ==================
+         Members Form
+               =================== */
+form {
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: 0 4px 15px var(--shadow-light);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+label {
+  font-weight: 600;
+  margin-bottom: 0.3rem;
+}
+
+input,
+select,
+textarea {
+  padding: 0.7rem 1rem;
+  font-size: 1rem;
+  border: 1px solid #d1d5db;
+  border-radius: 0.5rem;
+  outline: none;
+  transition: border-color var(--transition-duration),
+    box-shadow var(--transition-duration);
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: var(--color-accent);
+  box-shadow: 0 0 8px var(--color-accent);
+}
+
+.form-submit {
+  background: var(--color-accent);
+  color: var(--color-white);
+  padding: 0.8rem 2rem;
+  font-weight: 700;
+  border-radius: var(--border-radius);
+  margin-top: 0.5rem;
+  align-self: flex-start;
+  transition: background-color var(--transition-duration), transform 0.2s;
+}
+
+.form-submit:hover {
+  background: var(--color-accent-hover);
+  transform: scale(1.05);
+}
+
+/* ===============
+       Tables
+           =================== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  font-size: 1rem;
+  background: var(--color-white);
+  border-radius: var(--border-radius);
+  overflow: hidden;
+  box-shadow: 0 4px 15px var(--shadow-light);
+}
+
+th,
+td {
+  text-align: left;
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+th {
+  background: #e0e7ff;
+  font-family: var(--heading-font);
+  font-weight: 600;
+}
+
+.actions button {
+  background: var(--color-accent);
+  color: white;
+  padding: 0.4rem 0.8rem;
+  border-radius: 0.4rem;
+  font-size: 0.85rem;
+  margin-right: 0.3rem;
+  transition: background-color var(--transition-duration);
+}
+
+.actions button:hover {
+  background: var(--color-accent-hover);
 }

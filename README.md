@@ -33,7 +33,7 @@ The project is divided into three main files:
 
 - [x] **Header and Navigation:** Completed the main navigation bar.
 - [x] **Hero Section:** Added the main headline and call-to-action.
-- [ ] Members Section
+- [x] **Members Section** implemented a fully functioanl member management system with persistent data feature.
 - [ ] Trainers Section
 - [ ] Classes Section
 - [ ] Contact & Footer Section
