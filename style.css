@@ -258,3 +258,31 @@ th {
 .actions button:hover {
   background: var(--color-accent-hover);
 }
+
+
+/* ============
+         Trainers Section
+             ============== */
+.features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.card {
+    background: var(--color-white);
+    padding: 1.5rem;
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 15px var(--shadow-light);
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    margin: 0 0 0.5rem 0;
+    font-family: var(--heading-font);
+    font-weight: 700;
+}
